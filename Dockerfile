@@ -4,6 +4,6 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 
-EXPOSE 8081
+EXPOSE 80
 
-ENTRYPOINT ["nodejs", "./index.js"]
+ENTRYPOINT ["nodejs", "index.js"]
